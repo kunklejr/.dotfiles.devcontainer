@@ -1,0 +1,29 @@
+[[language]]
+name = "typescript"
+auto-format = true
+formatter = { command = "biome", args = ["check", "--error-on-warnings"] }
+
+[[language]]
+name = "tsx"
+auto-format = true
+formatter = { command = "biome", args = ["check", "--error-on-warnings"] }
+
+[[language]]
+name = "javascript"
+auto-format = true
+formatter = { command = "biome", args = ["check", "--error-on-warnings"] }
+
+[[language]]
+name = "jsx"
+auto-format = true
+formatter = { command = "biome", args = ["check", "--error-on-warnings"] }
+
+[[language]]
+name = "json"
+auto-format = true
+formatter = { command = "biome", args = ["check", "--error-on-warnings"] }
+
+[[language]]
+name = "css"
+auto-format = true
+formatter = { command = "biome", args = ["check", "--error-on-warnings"] }

@@ -1,0 +1,51 @@
+theme = "catppuccin_frappe"
+
+[editor]
+line-number = "relative"
+mouse = true
+cursorline = true
+auto-format = true
+auto-save = true
+bufferline = "multiple"
+color-modes = true
+true-color = true
+rulers = [80, 120]
+idle-timeout = 50
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "file-modification-indicator"]
+right = ["diagnostics", "selections", "position", "file-encoding"]
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = false
+
+[editor.indent-guides]
+render = true
+character = "▏"
+
+[editor.soft-wrap]
+enable = true
+
+[keys.normal]
+"C-s" = ":write"
+"C-q" = ":quit"
+"C-/" = "toggle_comments"
+"C-r" = ":reload-all"
+"C-g" = [
+  ":write-all",
+  ":new",
+  ":insert-output lazygit",
+  ":buffer-close!",
+  ":redraw",
+  ":reload-all"
+]
+y = ["yank", "yank_to_clipboard"]
+
+[keys.select]
+y = ["yank", "yank_to_clipboard"]
