@@ -1,29 +1,29 @@
 [[language]]
 name = "typescript"
 auto-format = true
-formatter = { command = "biome", args = ["check", "--error-on-warnings"] }
+formatter = { command = "biome", args = ["check", "--write", "--stdin-file-path=stdin.ts"] }
 
 [[language]]
 name = "tsx"
 auto-format = true
-formatter = { command = "biome", args = ["check", "--error-on-warnings"] }
+formatter = { command = "biome", args = ["check", "--write", "--stdin-file-path=stdin.tsx"] }
 
 [[language]]
 name = "javascript"
 auto-format = true
-formatter = { command = "biome", args = ["check", "--error-on-warnings"] }
+formatter = { command = "biome", args = ["check", "--write", "--stdin-file-path=stdin.js"] }
 
 [[language]]
 name = "jsx"
 auto-format = true
-formatter = { command = "biome", args = ["check", "--error-on-warnings"] }
+formatter = { command = "biome", args = ["check", "--write", "--stdin-file-path=stdin.jsx"] }
 
 [[language]]
 name = "json"
 auto-format = true
-formatter = { command = "biome", args = ["check", "--error-on-warnings"] }
+formatter = { command = "biome", args = ["check", "--write", "--stdin-file-path=stdin.json"] }
 
 [[language]]
 name = "css"
 auto-format = true
-formatter = { command = "biome", args = ["check", "--error-on-warnings"] }
+formatter = { command = "biome", args = ["check", "--write", "--stdin-file-path=stdin.css"] }
