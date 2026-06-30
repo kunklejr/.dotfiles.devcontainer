@@ -1,6 +1,6 @@
 git:
   pagers:
-    - pager: delta --features=catppuccin-frappe --paging=never --line-numbers --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}
+    - pager: delta --features=catppuccin-frappe --paging=never --line-numbers --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}"
 
 gui:
   # Catppuccin Frappé theme
