@@ -159,3 +159,10 @@
 [init]
 
 	defaultBranch = main
+
+[include]
+
+	# Defines the `catppuccin-*` delta features (color schemes). Activated per-tool
+	# via `delta --features=catppuccin-frappe` (e.g. in lazygit's pager). Defining
+	# them here does NOT change git's default pager.
+	path = ~/.config/delta/catppuccin.gitconfig

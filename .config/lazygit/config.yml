@@ -1,35 +1,35 @@
 git:
   pagers:
-    - pager: delta --paging=never --line-numbers --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}"
-  
+    - pager: delta --features=catppuccin-frappe --paging=never --line-numbers --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}
+
 gui:
   # Catppuccin Frappé theme
   theme:
     activeBorderColor:
-      - '#8caaee'  # blue
+      - "#8caaee" # blue
       - bold
     inactiveBorderColor:
-      - '#838ba7'  # overlay1
+      - "#838ba7" # overlay1
     optionsTextColor:
-      - '#8caaee'  # blue
+      - "#8caaee" # blue
     selectedLineBgColor:
-      - '#414559'  # surface0
+      - "#414559" # surface0
     selectedRangeBgColor:
-      - '#414559'  # surface0
+      - "#414559" # surface0
     cherryPickedCommitBgColor:
-      - '#51576d'  # surface1
+      - "#51576d" # surface1
     cherryPickedCommitFgColor:
-      - '#8caaee'  # blue
+      - "#8caaee" # blue
     unstagedChangesColor:
-      - '#e78284'  # red
+      - "#e78284" # red
     defaultFgColor:
-      - '#c6d0f5'  # text
+      - "#c6d0f5" # text
     searchingActiveBorderColor:
-      - '#e5c890'  # yellow
+      - "#e5c890" # yellow
 
 os:
-  edit: 'hx {{filename}}'
-  editAtLine: 'hx {{filename}}:{{line}}'
-  editAtLineAndWait: 'hx {{filename}}:{{line}}'
-  openDirInEditor: 'hx {{dir}}'
+  edit: "hx {{filename}}"
+  editAtLine: "hx {{filename}}:{{line}}"
+  editAtLineAndWait: "hx {{filename}}:{{line}}"
+  openDirInEditor: "hx {{dir}}"
   suspend: true
